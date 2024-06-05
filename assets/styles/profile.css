@@ -1,0 +1,66 @@
+
+button{
+    margin:20px;
+}
+.profile {
+    background-color: #717074;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 350px;
+    margin: 0 auto; /* Center horizontally */
+}
+
+
+    .profile h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .profile label {
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .profile input {
+        width: 100%;
+        
+        padding-top: 8px;
+        padding-right: 0px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        margin-bottom: 10px;
+        background-color: #444444;
+    }
+
+    .profile button {
+        background-color: #3b3b3b;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+        .button:hover {
+            background-color: #3b3b3bd1;
+        }
+.widget h2 {
+    text-align: center;
+    font-weight: 300;
+    color: #222;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+    grid-template-rows: 27px 0;
+    grid-gap: 20px;
+    align-items: center;
+}
+
+    .widget h2:after, .widget h2:before {
+        content: " ";
+    }
